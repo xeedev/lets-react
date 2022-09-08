@@ -1,11 +1,11 @@
 import './App.css';
-import {SignInComponent} from './components'
+import {TemporaryDrawer} from './components'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <SignInComponent />
+        <TemporaryDrawer />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
