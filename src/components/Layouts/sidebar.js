@@ -20,7 +20,7 @@ const useStyles = makeStyles({
     },
 });
 
-const signInComponent = () => {
+const TemporaryDrawer = () => {
     const classes = useStyles();
     const [state, setState] = React.useState({
         top: false,
@@ -80,4 +80,4 @@ const signInComponent = () => {
     );
 }
 
-export default signInComponent;
+export default TemporaryDrawer;
