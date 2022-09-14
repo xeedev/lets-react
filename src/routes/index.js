@@ -1,14 +1,14 @@
-import React, { memo } from 'react';
-import { Router, Route } from 'react-router-dom';
-import {SignInComponent} from "../components";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 
+import App from '../App';
 
-const Routes = () => (
+const element = (
     <Router>
-            <Route path="/">
-                <SignInComponent />
-            </Route>
+        <App />
     </Router>
-)
+);
 
-export default memo(Routes);
+const container = document.getElementById('root');
+ReactDOM.render(element, container);
