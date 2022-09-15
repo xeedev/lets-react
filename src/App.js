@@ -13,6 +13,9 @@ export default function App() {
                         <li>
                             <Link to="/about">About</Link>
                         </li>
+                        <li>
+                            <p>{process.env.REACT_APP_SERVER_URL}</p>
+                        </li>
                     </ul>
                 </nav>
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const signInComponent = () => {
-    return <p>HELLO {process.env.REACT_APP_SERVER_URL}</p>;
+    return <p>HELLO</p>;
 }
 
 export default signInComponent;
