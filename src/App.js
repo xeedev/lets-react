@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 import {SignInComponent, TemporaryDrawer} from "./components";
-// require('dotenv').config()
 export default function App() {
     return (
         <Router>
