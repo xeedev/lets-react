@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 import {SignInComponent, TemporaryDrawer} from "./components";
-
+// require('dotenv').config()
 export default function App() {
     return (
         <Router>
@@ -25,12 +25,4 @@ export default function App() {
             </div>
         </Router>
     );
-}
-
-function Home() {
-    return <h2>Home</h2>;
-}
-
-function About() {
-    return <h2>About</h2>;
 }
